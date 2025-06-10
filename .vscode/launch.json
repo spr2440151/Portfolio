@@ -1,0 +1,61 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "FaceApp",
+            "request": "launch",
+            "mainClass": "FaceApp",
+            "projectName": "Test2Project_f95426da"
+        },
+        {
+            "type": "java",
+            "name": "RegisterFace",
+            "request": "launch",
+            "mainClass": "RegisterFace",
+            "projectName": "Test2Project_8e676fdc"
+        },
+        {
+            "type": "java",
+            "name": "FaceApp",
+            "request": "launch",
+            "mainClass": "FaceApp",
+            "projectName": "Test2Project_8e676fdc"
+        },
+        {
+            "type": "java",
+            "name": "FaceLogin",
+            "request": "launch",
+            "mainClass": "FaceLogin",
+            "projectName": "Test2Project_8e676fdc"
+        },
+        {
+            "type": "java",
+            "name": "RegisterFace",
+            "request": "launch",
+            "mainClass": "RegisterFace",
+            "projectName": "Test2Project_ba916d9a"
+        },
+        {
+            "type": "java",
+            "name": "FaceLogin",
+            "request": "launch",
+            "mainClass": "FaceLogin",
+            "projectName": "Test2Project_ba916d9a"
+        },
+        {
+            "type": "java",
+            "name": "XChartTest",
+            "request": "launch",
+            "mainClass": "XChartTest",
+            "projectName": "Test2Project_ac89a63d"
+        },
+        {
+            "type": "java",
+            "name": "Launch ImageRecognitionApp",
+            "request": "launch",
+            "mainClass": "ImageRecognitionApp",
+            "vmArgs": "-Djava.library.path=\"./lib/native\""
+        }
+    ]
+}
