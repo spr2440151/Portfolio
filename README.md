@@ -1,18 +1,33 @@
-## Getting Started
+# 顔判別アプリ
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+## 概要
+簡易的なJavaアプリケーションです。openCVを利用し、顔を認識してどんな動物に似ているかを判定します。画像はカメラで写真を撮ったり、ファイルから読み込んだりすることができます。
 
-## Folder Structure
+## 使用技術
+- Java 11.0.12
+- VSCode
+- Git
 
-The workspace contains two folders by default, where:
+## 実行方法
+1. `FaceApp.java` を実行してください。
+2. ログイン又は新規登録してください
+   2.1  ログイン機能は直前の１人しか記録しません。複数人の登録は対応していません。
+   2.2  ログイン機能の判定能力があまり高くありません。ログインできない場合は一度プログラムを強制終了させてください。
+   2.3  ログインできない場合、直接`ImageRecognitionApp.java`を実行してください。
+3. `ImageRecognitionApp.java`が実行されます。
+4. `画像を選択`又は`カメラで撮影`を選択してください。それぞれのモデルと比較し、最も近い動物を表示します。
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## 特徴
+- AI技術を用いた画像認識
+- 端末ごとに必要データを自動インストール
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+## 今後の改善点
+- ログイン精度の強化
+- 複数人のユーザー情報の保持(DBとの連携)
+- コードの整理
+- デザイン面の完成度向上
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+## 補足
+- 一部のコードはChatGPTを参考にしました。
+- デザイン部分は最小限で、機能面を重視しています。
+- チームでの制作のため、一部は他のメンバーが担当しています。
